@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ff001bc.css",
-    "main.js": "/static/js/main.7bc1158c.js",
-    "static/media/Rectangle2.png": "/static/media/Rectangle2.a49de93245d8d63dfee7.png",
-    "static/media/libreria.png": "/static/media/libreria.a8599864590313cdf4c4.png",
-    "static/media/about_us.png": "/static/media/about_us.33ed48aed85795cbf09f.png",
-    "static/media/foto1.jpeg": "/static/media/foto1.1b8c17b5136fd7c8ad72.jpeg",
-    "static/media/foto3.webp": "/static/media/foto3.63e271a08d7fddfdca01.webp",
-    "static/media/Rectangle.png": "/static/media/Rectangle.7425c4b135bcb20d0690.png",
-    "static/media/Ellipse2.png": "/static/media/Ellipse2.e66c9c3a5848dc2d9f57.png",
-    "static/media/foto2.webp": "/static/media/foto2.f62702793ddf7512535d.webp",
-    "index.html": "/index.html",
-    "main.5ff001bc.css.map": "/static/css/main.5ff001bc.css.map",
-    "main.7bc1158c.js.map": "/static/js/main.7bc1158c.js.map"
+    "main.css": "/Lowry02/raggiungibile/static/css/main.5ff001bc.css",
+    "main.js": "/Lowry02/raggiungibile/static/js/main.fba171f6.js",
+    "static/media/Rectangle2.png": "/Lowry02/raggiungibile/static/media/Rectangle2.a49de93245d8d63dfee7.png",
+    "static/media/libreria.png": "/Lowry02/raggiungibile/static/media/libreria.a8599864590313cdf4c4.png",
+    "static/media/about_us.png": "/Lowry02/raggiungibile/static/media/about_us.33ed48aed85795cbf09f.png",
+    "static/media/foto1.jpeg": "/Lowry02/raggiungibile/static/media/foto1.1b8c17b5136fd7c8ad72.jpeg",
+    "static/media/foto3.webp": "/Lowry02/raggiungibile/static/media/foto3.63e271a08d7fddfdca01.webp",
+    "static/media/Rectangle.png": "/Lowry02/raggiungibile/static/media/Rectangle.7425c4b135bcb20d0690.png",
+    "static/media/Ellipse2.png": "/Lowry02/raggiungibile/static/media/Ellipse2.e66c9c3a5848dc2d9f57.png",
+    "static/media/foto2.webp": "/Lowry02/raggiungibile/static/media/foto2.f62702793ddf7512535d.webp",
+    "index.html": "/Lowry02/raggiungibile/index.html",
+    "main.5ff001bc.css.map": "/Lowry02/raggiungibile/static/css/main.5ff001bc.css.map",
+    "main.fba171f6.js.map": "/Lowry02/raggiungibile/static/js/main.fba171f6.js.map"
   },
   "entrypoints": [
     "static/css/main.5ff001bc.css",
-    "static/js/main.7bc1158c.js"
+    "static/js/main.fba171f6.js"
   ]
 }
