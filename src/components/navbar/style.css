@@ -1,0 +1,34 @@
+#navbar {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+}
+
+#navbar .ball {
+  background-color: var(--dark_blue);
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  position: relative;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#navbar .ball.selected::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 2px;
+  top: 2px;
+  background-color: var(--medium_blue);
+  border-radius: 100%;
+}
+
+
+#navbar .ball:hover{
+  cursor: pointer;
+}

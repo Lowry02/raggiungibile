@@ -1,0 +1,129 @@
+:root {
+  --dark_blue: #2400FF;
+  --medium_blue: #66C8FF;
+  --light_blue: #AEE2FF;
+  --light_light_blue: #D8F1FF;
+  --menu_bkg: #2400ffcf;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--dark_blue);
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--medium_blue);
+  border-radius: 10px;
+  display: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+html {
+  font-family: 'Lexend Deca', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: 2s;
+  background-color: var(--dark_blue);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+a:hover {
+  color: unset;
+  text-decoration: underline;
+}
+
+.bounce {
+  transition: 0.3s;
+}
+
+.bounce:hover {
+  transform: scale(1.1);
+}
+
+.bounce:active {
+  transform: scale(0.9);
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  background: var(--light_blue) !important;
+  width: 40%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.main_title {
+  font-size: 4vw;
+  font-weight: 700;
+  color: var(--dark_blue);
+  z-index: 3;
+  position: relative;
+}
+
+.main_title.white {
+  color: var(--light_light_blue);
+}
+
+.description {
+  color: white;
+  font-weight: 200;
+  font-size: 2vh;
+}
+
+button {
+  background-color: var(--dark_blue);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  outline: none;
+  border: 0px;
+  color: var(--light_blue);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.centered {
+  display: grid;
+  place-content: center;
+}
+
+.clickable {
+  z-index: 4;
+  position: relative;
+}
+
+.sub_title {
+  color: var(--dark_blue);
+  font-weight: 700;
+}
+
+.separator {
+  width: 40px;
+  height: 8px;
+  background-color: var(--dark_blue);
+  border-radius: 10px;
+  box-shadow: 0 0 4 rgba(0, 0, 0, 0.5);
+}
